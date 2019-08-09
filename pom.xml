@@ -10,11 +10,11 @@
 		<version>2.0.3.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>eurekaDemo2</artifactId>
+	<groupId>xiaolei.gao</groupId>
+	<artifactId>eureka</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>eurekaDemo2</name>
-	<description>Demo project for Spring Boot</description>
+	<name>eureka</name>
+	<description>eureka</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -54,6 +54,8 @@
 	</dependencyManagement>
 
 	<build>
+	<!-- 自定义jar包名 -->
+		<finalName>eureka</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
