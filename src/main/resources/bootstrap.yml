@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: eruka-server
+  cloud:
+    config:
+      uri: http://trainingConfig.xiaolei.gao:9002
+      profile: dev
